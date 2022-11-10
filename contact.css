@@ -130,7 +130,7 @@ html, body {
   .column {
     margin-top: 8px;
     margin-left: 30px;
-    margin-right: 15px;
+    margin-right: 70px;
     vertical-align: middle;
   }
 
@@ -153,3 +153,10 @@ button:hover{
     color: white;
     background-color: black
   } 
+
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 60%;
+    /* The width is the width of the web page */
+  }

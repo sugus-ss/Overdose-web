@@ -28,7 +28,7 @@
                     <p>overdose@gmail.com</p>
                     <button type="submit" class="button_contact">CONTACT US</button>
                 </div> 
-                <img src="location.jpg" style="height: 350px; margin-left: 100px;">         
+                <div id="map"></div>
             </div>    
         </div>
 
@@ -72,4 +72,28 @@
         </footer>  
 
     </body>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script>
+        function initMap() {
+            // The location of Uluru
+            const uluru = { lat: 13.652846, lng: 100.49543 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+
+        window.initMap = initMap;
+    </script>
+    
 </html>
