@@ -33,14 +33,25 @@ html, body {
 
 .image {
     width: 100%;
+    height: 500px; 
+    object-fit: cover;
 }
 
 
-.middle-left {
+.middle-left-1 {
+    color: #3F51B5;
     position: absolute;
-    top: 40%;
-    left: 45px;
+    top: 27%;
+    right: 45px;
   }
+
+  .middle-left-2 {
+    font-size: 60px;
+    color: #3F51B5;
+    position: absolute;
+    top: 52%;
+    right: 45px;
+  }  
 
 .top-profile {
     position: relative;
