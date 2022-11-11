@@ -15,6 +15,12 @@ html, body {
     text-decoration: none;
 }
 
+.menu-item:hover {
+  background-color: rgb(228, 246, 252);
+  text-decoration: none; 
+  border-radius: 10px;
+}
+
 .logo-header {
   height: 80px;
   margin-left: 18px; 

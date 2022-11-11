@@ -9,19 +9,18 @@ html, body {
 }
 
 .menu-item {
-    color: black;
-    padding: 35px;
-    display: inline-block;
-    text-decoration: none; 
-    }
+  font-weight: 450;
+  color: black;
+  padding: 35px;
+  display: inline-block;
+  text-decoration: none; 
+  }
 
-    .menu-item :hover {
-      background-color: yellow;
- 
-      }
-  
-
-
+.menu-item:hover {
+  background-color: rgb(228, 246, 252);
+  text-decoration: none; 
+  border-radius: 10px;
+}
 
 .logo-header {
     height: 80px;
