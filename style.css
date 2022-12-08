@@ -116,12 +116,7 @@ nav{
   padding: 20px 40px;
   text-decoration: none;
   display: inline-block;
-  /* margin-top: 75px; */
-  /* margin-right: 180px ; */
   border-radius: 15px;
-  /* position: absolute; */
-  /* top: 60%; */
-  /* right: 130px; */
   font-size: 20%;
   font-style: normal;
   font-weight: bold;
@@ -136,7 +131,6 @@ nav{
   color: white;
   background-color: #2a3b9e;
   text-decoration: none; 
-  /* border-radius: 15px; */
 }
 
 .content{
@@ -144,14 +138,8 @@ nav{
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  /* left: 50%; */
-  /* top: 50%; */
-  /* width: 90%; */
   max-width: 900px;
-  /* transform: translate(-50%, -50%); */
-  /* text-align: center; */
   color: black;
-  /* padding-top: 50px; */
 }
 
 .content2 {
@@ -166,7 +154,6 @@ nav{
 .content h1{
   font-size: 65px;
   font-weight: 600;
-  /* margin-bottom: 80px; */
 }
 /*Header end that use all pages*/
 
