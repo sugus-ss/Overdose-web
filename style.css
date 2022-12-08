@@ -118,7 +118,7 @@ nav{
   }
 }
 
-@media (min-width: 320px) and (max-width: 759px) {
+@media (max-width: 759px) {
   .toggle-button {
     display: flex;
   }
@@ -237,6 +237,15 @@ nav{
     padding: 16px 32px;
     font-size: 1.5rem;
     white-space: nowrap;
+  }
+}
+
+@media (max-width: 400px) {
+  .content h1{
+    font-size: 9vw;
+  } 
+  .content2 {
+    height: 40%;
   }
 }
 /* Header end */
@@ -488,7 +497,6 @@ nav{
 
 .software-text{
   font-weight: bold;
-  font-size: 2rem;
   line-height: 147.9%;
 }
 
@@ -562,6 +570,25 @@ nav{
 
   .software-text.section{
     width: calc(var(--pillWidth) - 15rem);
+  }
+}
+
+@media (max-width: 370px) {
+  .software-img{
+    width: calc(var(--pillWidth) - 20rem);
+  }
+
+  .software-text.section{
+    width: calc(var(--pillWidth) - 20rem);
+  }
+
+  .software-text.header{
+    font-size: 1.25rem;
+  }
+  
+  .software-text.para{
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
   }
 }
 /* New Software end */
@@ -658,6 +685,12 @@ nav{
   .app-image{
     height: auto;
     width: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  .app-image{
+    width: 200px;
   }
 }
 /* How to use end */
