@@ -14,6 +14,7 @@ html, body {
 .top-header-2 {
   position: relative;
   width: 100%;
+  padding: 0 8%;
 }
 
 .top-image{
@@ -35,49 +36,33 @@ html, body {
 
 .logo-header {
   height: 80px;
+  margin-left:25px;
+  margin-top: 3px;
   position: relative;
 }
 
 nav{
   background: white;
   display: flex;
-  gap: 64px;
-  justify-content: space-between;
   align-items: center;
-  position: relative;
-  padding: 0 18%;
-}
-
-.toggle-button {
-  position: absolute;
-  top: 1.75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-
-.toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  background-color: #3F51B5;
-  border-radius: 10px;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 7px;
+  padding: 0 0;
 }
 
 .nav-links{
-  margin: 0;
-  padding: 0;
+  padding: 1 10px;
+  margin-top: 16px;
   position: relative;
-  display: flex;
-  height: 80px;
-  gap: 32px;
-  align-items: center;
 }
 
 .nav-links li{
-  list-style-type: none;
+  display: inline-block;
+  margin: 10 35px;
+  margin-top: 10px;
+
 }
 
 .nav-links li a{
@@ -86,7 +71,6 @@ nav{
   color: black;
   padding: 5px 0;
   position: relative;
-  font-weight: bold;
 }
 
 .nav-links li a::after{
@@ -106,7 +90,7 @@ nav{
 
 .btn{
   font-size: 18px;
-  background: #2b3ea8;
+  background: #3F51B5;
   color: #fff;
   padding: 10px 30px;
   border-radius: 3px;
@@ -115,11 +99,11 @@ nav{
 }
 
 .btn:hover{
-  background: #3F51B5;
-}
-
-.nav-links li.btn a{
-  color: white;
+  background: #2b3ea8;
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .topic{
@@ -132,7 +116,12 @@ nav{
   padding: 20px 40px;
   text-decoration: none;
   display: inline-block;
+  /* margin-top: 75px; */
+  /* margin-right: 180px ; */
   border-radius: 15px;
+  /* position: absolute; */
+  /* top: 60%; */
+  /* right: 130px; */
   font-size: 20%;
   font-style: normal;
   font-weight: bold;
@@ -147,6 +136,7 @@ nav{
   color: white;
   background-color: #2a3b9e;
   text-decoration: none; 
+  /* border-radius: 15px; */
 }
 
 .content{
@@ -154,8 +144,14 @@ nav{
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  /* left: 50%; */
+  /* top: 50%; */
+  /* width: 90%; */
   max-width: 900px;
+  /* transform: translate(-50%, -50%); */
+  /* text-align: center; */
   color: black;
+  /* padding-top: 50px; */
 }
 
 .content2 {
@@ -170,37 +166,8 @@ nav{
 .content h1{
   font-size: 65px;
   font-weight: 600;
+  /* margin-bottom: 80px; */
 }
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .toggle-button {
-    display: flex;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    gap: 0;
-    padding-bottom: 12px;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .nav-links li {
-    text-align: center;
-    padding: .5rem 1rem;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-}
-
 /*Header end that use all pages*/
 
 /*Footer start that use all pages*/
@@ -515,11 +482,14 @@ vertical-align: middle;
 
 .app-image{
   height: 450px;
+  border:1px solid black; 
+  border-radius: 25px;
 }
 
 .text-page{
   margin-top: 30px;
   margin-right: 65px;
+  font-size: 1.25rem;
 }
 /*****Home page end****/
 
