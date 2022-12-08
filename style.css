@@ -567,6 +567,13 @@ nav{
 }
 /* New Software end */
 
+/* Random Paragraph */
+.random-paragraph{
+  margin: 1rem 0;
+  padding: 0 1.5rem;
+}
+/* Random Paragraph end */
+
 .main-content{
   max-width: max-content;
   margin: auto;
