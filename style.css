@@ -515,11 +515,14 @@ vertical-align: middle;
 
 .app-image{
   height: 450px;
+  border:1px solid black; 
+  border-radius: 25px;
 }
 
 .text-page{
   margin-top: 30px;
   margin-right: 65px;
+  font-size: 1.25rem;
 }
 /*****Home page end****/
 
