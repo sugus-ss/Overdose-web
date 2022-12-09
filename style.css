@@ -696,7 +696,7 @@ nav{
 }
 /* How to use end */
 
-/*****Our team page start****/
+/* Our team */
 .profile-row{
   display: flex;
   justify-content: center;
@@ -818,9 +818,9 @@ nav{
   height: 300px;
   object-fit: cover;
 }
-/*****Our team page end****/
+/* Our team end */
 
-/*****Contace page start****/
+/* Contact */
 .main-content-3{
   max-width: 1300px;
   margin: auto;
@@ -864,4 +864,4 @@ nav{
   height: 400px;
   width: 60%;
 }
-/*****Contact page end****/
+/* Contact end */
