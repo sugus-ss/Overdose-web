@@ -199,6 +199,7 @@ nav{
 .content h1{
   font-size: 4rem;
   font-weight: 600;
+  color: #007bff;
 }
 
 @media (max-width: 955px) {
@@ -696,8 +697,48 @@ nav{
 /* How to use end */
 
 /*****Our team page start****/
+.profile-row{
+  display: flex;
+  justify-content: center;
+  /* margin: 0 3rem; */
+  gap: 32px;
+  flex-wrap: wrap;
+  width: 65%;
+}
+
+@media (max-width: 1400px) {
+  .profile-row{
+    width: 90%;
+    gap: 24px;
+  }
+  
+}
+
+@media (max-width: 1170px) {
+  .profile-row{
+    width: 80%;
+    gap: 16px;
+  }
+}
+
+
+.profile-container{
+  width: 100%;
+  display: flex;
+  justify-content: center ;
+  margin-bottom: 32px;
+}
+
 .profile{
   margin-top: 25px;
+  flex-shrink: 0;
+  max-width: 100%;
+  width: auto!important;
+  background-color: #cbd2fa;
+  color: black;
+  padding: 16px!important;
+  margin-top: 0!important;
+  border-radius: 8px;
 }
 
 .profile .img-box{
@@ -721,7 +762,7 @@ nav{
 .img-box:after{
   content: '';
   opacity: 0;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.3);
   position:absolute;
   right: 0;
   left: 0;
@@ -756,7 +797,7 @@ nav{
 }
 
 .img-box:hover:after{
-  opacity: 0;
+  opacity: 1;
 }
 
 .img-box:hover ul{
@@ -770,6 +811,12 @@ nav{
 
 .img-box:after, .img-box ul, .img-box ul li{
   transition: all 0.1s ease-in-out 0s;
+}
+
+.img-responsive{
+  width: 230px;
+  height: 300px;
+  object-fit: cover;
 }
 /*****Our team page end****/
 
