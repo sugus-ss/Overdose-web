@@ -39,7 +39,7 @@ const navBar = (() => {
                 break;
             case 2:
                 link.textContent = 'Our team';
-                link.setAttribute('href', './our_team.html');
+                link.setAttribute('href', './ourTeam.html');
                 break;
             case 3:
                 link.textContent = 'Contact';
