@@ -66,3 +66,5 @@ const navBar = (() => {
     container.append(navBar);
     document.body.insertBefore(container, document.body.firstChild);
 })();
+
+export default navBar;

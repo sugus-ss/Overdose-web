@@ -130,3 +130,5 @@ const footer = (() => {
     container.append(row, copyright);
     document.body.append(footer);
 })();
+
+export default footer;
