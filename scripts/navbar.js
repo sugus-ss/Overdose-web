@@ -6,7 +6,7 @@ const navBar = (() => {
     
     // create logo
     const logo = document.createElement('a');
-    logo.setAttribute('href', './home.html');
+    logo.setAttribute('href', './index.html');
     const logoImg = document.createElement('img');
     logoImg.classList.add('logo-header');
     logoImg.setAttribute('src', '../img/logo.png');
@@ -35,7 +35,7 @@ const navBar = (() => {
         switch(i) {
             case 1:
                 link.textContent = 'Home';
-                link.setAttribute('href', './home.html');
+                link.setAttribute('href', './index.html');
                 break;
             case 2:
                 link.textContent = 'Our team';
