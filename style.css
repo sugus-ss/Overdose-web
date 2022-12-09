@@ -827,14 +827,13 @@ nav{
 }
 
 .box-2{
-  background-color: red;
-  padding: 10px;
-  margin: 30px;
+  padding: 14px;
+  margin: 32px;
   display: flex;
   justify-content: center;
   gap: 16px;
 }
-  
+
 .contact-information{
   margin: 24px 32px;
 }
@@ -853,8 +852,20 @@ nav{
   background-color: #3F51B5;
   } 
 
-#map{
+.map{
+  width: 700px;
   height: 400px;
-  width: 60%;
+  border:0;
+  border-radius: 8px;
+}
+
+@media (max-width: 750px) {
+  .box-2{
+    flex-direction: column-reverse;
+  }
+
+  .map{
+    width: 100%;
+  }
 }
 /* Contact end */
