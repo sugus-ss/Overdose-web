@@ -9,7 +9,7 @@ const navBar = (() => {
     logo.setAttribute('href', './index.html');
     const logoImg = document.createElement('img');
     logoImg.classList.add('logo-header');
-    logoImg.setAttribute('src', '../img/logo.png');
+    logoImg.setAttribute('src', './img/logo.png');
     logo.append(logoImg)
 
     // create hamberger button for responsive design
